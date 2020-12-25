@@ -7,7 +7,7 @@ GitNote 是一款基于 Git 的云笔记工具，支持 Windows、macOS、Linux�
 [GitNote官网](https://gitnoteapp.com/)
 ![](https://github.com/jinghehehe/pictures/blob/main/gitnote.png)
 下载好后，只需要复制github仓库连接xxx.git映射到本地目录即可，用户名，密码为github账户名，密码。
-
+在GitNote可以使用md方式记录笔记，按钮式简化了markdown
 ### GitNote排坑
 由于BLM运动，github master分支改为main分支，而GitNote配置需要master分支，因此需建立master分支即可实现克隆。
 
