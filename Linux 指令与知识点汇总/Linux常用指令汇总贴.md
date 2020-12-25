@@ -29,8 +29,8 @@ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 
 ### 输出日志
-
 ```language
+# 输出日志
 nohup python -u xxxx.py >xxxx.log 2>&1 &
 ```
 
