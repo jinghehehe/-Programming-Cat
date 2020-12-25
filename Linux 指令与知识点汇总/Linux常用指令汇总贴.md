@@ -34,6 +34,16 @@ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 nvidia-smi
 ```
 
+### 环境依赖包生成与安装
+- 生成requirements.txt文件
+```language
+pip freeze > requirements.txt
+```
+- 安装requirements.txt依赖
+```language
+pip install -r requirements.txt
+```
+
 ### 执行脚本
 ```language
 #查看显存
