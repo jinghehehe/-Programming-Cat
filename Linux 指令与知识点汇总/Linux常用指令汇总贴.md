@@ -44,6 +44,13 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
+### python添加祖父目录文件，使用配置文件方式（sys.path.append出问题）
+```language
+vi ~/.bashrc
+export PYTHONPATH=~/attack/pysot-toolkit/pysot:$PYTHONPATH
+source ~/.bashrc
+```
+
 ### 执行脚本
 ```language
 #查看显存
