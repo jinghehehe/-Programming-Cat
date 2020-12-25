@@ -11,8 +11,9 @@ set ff=unix
 :wq
 ```
 
-### shell脚本首行指令
+### shell脚本首行指令，使用指定解释器执行
 - 脚本使用/bin/bash来解释执行
 ```language
 #！/bin/bash 
 ```
+
