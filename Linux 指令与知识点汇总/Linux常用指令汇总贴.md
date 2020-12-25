@@ -14,3 +14,9 @@ du -h --max-depth=1 .
 #查看显存
 nvidia-smi
 ```
+
+### 查看cuda版本和
+```language
+#查看显存
+nvidia-smi
+```
