@@ -3,7 +3,7 @@
 工欲善其事，必先利其器。本文将介绍一个服务器远程连接工具，图像化界面较为舒服，学生可以申请github pro包来免费使用。
 ***
 ## Termius 介绍
-GitNote 是一款基于 Git 的云笔记工具，支持 Windows、macOS、Linux，使用 Git 仓库作为数据保存，如 GitHub、GitLab 等，内置 git 支持，依托 Git 仓库的特性，拥有历史版本、私密笔记、无限空间等特点。
+Termius是一款支持WINDOWS,MAC,和IOS平台的远程SSH工具，功能强大，且和teamviewer一样注册一个账号就可以在多个平台共享主机列表，一次配置后就可以跨平台使用等特点。
 [GitNote官网](https://gitnoteapp.com/)
 ![](https://github.com/jinghehehe/pictures/blob/main/termius.png)
 下载好后，只需要复制github仓库连接xxx.git映射到本地目录即可，用户名，密码为github账户名，密码。
