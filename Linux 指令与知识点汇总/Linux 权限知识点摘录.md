@@ -1,6 +1,6 @@
 # Linux 权限知识点摘录
 ***
-Linux 下通常对文件操作需要有相应的权限，
+Linux 下通常对文件操作需要有相应的权限，本文将重点介绍权限相关知识点。
 ***
 ## Linux下文件的权限类型一般包括读，写，执行。对应字母r，w，x。
 - Linux下权限的粒度有 拥有者 、群组 、其它组 三种。每个文件都可以针对三个粒度，设置不同的rwx(读写执行)权限。通常情况下，一个文件只能归属于一个用户和组， 如果其它的用户想有这个文件的权限，则可以将该用户加入具备权限的群组，一个用户可以同时归属于多个组。
@@ -44,7 +44,11 @@ chmod 777 file  (等价于  chmod u=rwx,g=rwx,o=rwx file 或  chmod a=rwx file)
 chmod 600 file (等价于  chmod u=rw,g=---,o=--- file 或 chmod u=rw,go-rwx file )
 ```
 
-参考文献：[Linux权限解析](https://blog.csdn.net/u013197629/article/details/73608613)
+[参考链接](https://blog.csdn.net/u013197629/article/details/73608613)
+
+
+***
+### **喜欢Programming-Cat的话，请Star吧**
 
 
 
