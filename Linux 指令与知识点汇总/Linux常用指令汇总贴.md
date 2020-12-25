@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ### python添加祖父目录文件，使用配置文件方式（sys.path.append有时会出问题）
 ```language
-#
+#类似于windows的环境变量，可以保证import成功。
 vi ~/.bashrc
 export PYTHONPATH=~/xx/pysot-toolkit/pysot:$PYTHONPATH
 source ~/.bashrc
