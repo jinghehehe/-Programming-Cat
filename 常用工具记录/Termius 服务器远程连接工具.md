@@ -11,7 +11,8 @@ termius操作方式与xshell，putty，MobaXterm等ssh工具相同，主要优�
 ### GitNote缺点
 目前使用下来有2个缺点：
 1. 无法分屏
-2. 传输大文件时较慢，可以使用MobaXterm等工具上传文件，可以图形化操作，不需要lrzsz方式命令行上传
+2. 传输大文件时较慢，可以使用MobaXterm等工具传输文件，可以图形化操作，不需要lrzsz方式命令行传输。
+
 ***
 ### **喜欢Programming-Cat的话，请Star吧**
 
