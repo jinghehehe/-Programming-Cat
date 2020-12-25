@@ -21,5 +21,9 @@ nvidia-smi
 1. nvcc 安装
 nvcc --version 
 nvcc -V
+2. nvcc 未安装
+cat /usr/local/cuda/version.txt
 
+#查看cudnn版本
+cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
