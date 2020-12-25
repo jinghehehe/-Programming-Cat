@@ -51,6 +51,28 @@ vi ~/.bashrc
 export PYTHONPATH=~/xx/pysot-toolkit/pysot:$PYTHONPATH
 source ~/.bashrc
 ```
+### Anaconda创建虚拟环境，删除环境，激活环境以及退出环境
+通常为了保证不同程序之间的环境依赖不冲突，可以为每一个程序设置一个单独的虚拟环境
+- 创建环境
+```language
+conda create -n name python=3.6 
+```
+- 删除环境（不太常用）
+```language
+conda remove -n name --all
+```
+- 激活环境
+```language
+source activate name  (conda4的是：conda activate name)
+```
+- 退出环境
+```language
+source deactivate (conda4的是：conda deactivate)
+```
+- 查看已有环境
+```language
+conda info --env
+```
 
 ### Python多版本切换
 - 本人遇到的是操作失误导致anaconda环境中的python版本被切换，进而导致conda启动失败，报错：No module named 'conda'
