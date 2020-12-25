@@ -52,8 +52,3 @@ export PYTHONPATH=~/xx/pysot-toolkit/pysot:$PYTHONPATH
 source ~/.bashrc
 ```
 
-### 执行脚本
-```language
-#查看显存
-nvidia-smi
-```
