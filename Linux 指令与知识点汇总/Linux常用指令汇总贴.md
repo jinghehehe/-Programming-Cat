@@ -95,3 +95,6 @@ source ~/.bash_profile
 ```
 3. （可选）当shell类型为zshell时需要修改vi ~/.zshrc，不然重新开启命令终端时会无效
 在最后写入source ~/.bash_profile（未实验）
+
+***
+### **喜欢Programming-Cat的话，请Star吧**
