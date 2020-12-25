@@ -11,3 +11,6 @@ GitNote 是一款基于 Git 的云笔记工具，支持 Windows、macOS、Linux�
 ### GitNote排坑
 由于BLM运动，github master分支改为main分支，而GitNote配置需要master分支，因此需建立master分支即可实现克隆。
 
+***
+### **喜欢Programming-Cat的话，请Star吧**
+
