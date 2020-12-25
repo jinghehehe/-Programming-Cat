@@ -4,7 +4,7 @@
 ***
 ## Termius 介绍
 Termius是一款支持WINDOWS,MAC,和IOS平台的远程SSH工具，功能强大，且和teamviewer一样注册一个账号就可以在多个平台共享主机列表，一次配置后就可以跨平台使用等特点。
-[GitNote官网](https://gitnoteapp.com/)
+[Termius官网](https://gitnoteapp.com/)
 ![](https://github.com/jinghehehe/pictures/blob/main/termius.png)
 下载好后，只需要复制github仓库连接xxx.git映射到本地目录即可，用户名，密码为github账户名，密码。
 在GitNote可以使用md方式记录笔记，按钮式简化了markdown写法，易上手，同步更新。
