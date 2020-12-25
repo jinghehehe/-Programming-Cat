@@ -35,18 +35,18 @@ nvidia-smi
 ```
 
 ### 环境依赖包生成与安装
-- 生成requirements.txt文件
 ```language
+#生成requirements.txt文件
 pip freeze > requirements.txt
 ```
-- 安装requirements.txt依赖
 ```language
+#安装requirements.txt依赖
 pip install -r requirements.txt
 ```
 
 ### python添加祖父目录文件，使用配置文件方式（sys.path.append有时会出问题）
 ```language
-
+#
 vi ~/.bashrc
 export PYTHONPATH=~/xx/pysot-toolkit/pysot:$PYTHONPATH
 source ~/.bashrc
