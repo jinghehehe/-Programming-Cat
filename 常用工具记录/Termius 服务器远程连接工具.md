@@ -6,9 +6,11 @@
 Termius是一款支持WINDOWS,MAC,和IOS平台的远程SSH工具，功能强大，且和teamviewer一样注册一个账号就可以在多个平台共享主机列表，一次配置后就可以跨平台使用等特点。
 [Termius官网](https://termius.com/)
 ![](https://github.com/jinghehehe/pictures/blob/main/termius.png)
-termius操作方式与xshell，putty，MobaXterm等ssh工具相同，主要优点在于界面清爽，颜值党比较喜欢，同时多平台共享账号，使用起来
-### GitNote排坑
-由于BLM运动，github master分支改为main分支，而GitNote配置需要master分支，因此需建立master分支即可实现克隆。
+termius操作方式与xshell，putty，MobaXterm等ssh工具相同，主要优点在于界面清爽，颜值党比较喜欢，同时多平台共享账号，使用起来较为方便。
+
+### GitNote缺点
+目前使用下来有两个缺点：
+1. 
 
 ***
 ### **喜欢Programming-Cat的话，请Star吧**
