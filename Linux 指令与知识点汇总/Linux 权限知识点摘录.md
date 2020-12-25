@@ -46,7 +46,6 @@ chmod 600 file (等价于  chmod u=rw,g=---,o=--- file 或 chmod u=rw,go-rwx fil
 
 [参考链接](https://blog.csdn.net/u013197629/article/details/73608613)
 
-
 ***
 ### **喜欢Programming-Cat的话，请Star吧**
 
