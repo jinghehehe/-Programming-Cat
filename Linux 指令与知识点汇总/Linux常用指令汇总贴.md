@@ -27,3 +27,15 @@ cat /usr/local/cuda/version.txt
 #查看cudnn版本
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
+
+### 查看显存
+```language
+#查看显存
+nvidia-smi
+```
+
+### 执行脚本
+```language
+#查看显存
+nvidia-smi
+```
