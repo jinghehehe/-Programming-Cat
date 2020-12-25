@@ -9,9 +9,9 @@ Termius是一款支持WINDOWS,MAC,和IOS平台的远程SSH工具，功能强大�
 termius操作方式与xshell，putty，MobaXterm等ssh工具相同，主要优点在于界面清爽，颜值党比较喜欢，同时多平台共享账号，使用起来较为方便。
 
 ### GitNote缺点
-目前使用下来有两个缺点：
-1. SFTP传输文件时
-
+目前使用下来有2个缺点：
+1. 无法分屏
+2. 传输大文件时较慢，
 ***
 ### **喜欢Programming-Cat的话，请Star吧**
 
