@@ -15,8 +15,11 @@ du -h --max-depth=1 .
 nvidia-smi
 ```
 
-### 查看cuda版本和
+### 查看cuda版本和cudnn版本
 ```language
-#查看显存
-nvidia-smi
+#查看cuda版本
+1. nvcc 安装
+nvcc --version 
+nvcc -V
+
 ```
