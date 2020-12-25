@@ -8,3 +8,9 @@
 #当前目录下文件占用大小
 du -h --max-depth=1 .
 ```
+
+### 查看显存
+```language
+#查看显存
+nvidia-smi
+```
