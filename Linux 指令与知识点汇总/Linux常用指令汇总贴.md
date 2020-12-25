@@ -28,10 +28,10 @@ cat /usr/local/cuda/version.txt
 cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 
-### 查看显存
+### 输出日志
 ```language
-#查看显存
-nvidia-smi
+# 输出日志
+nohup python -u xxxx.py >xxxx.log 2>&1 &
 ```
 
 ### 环境依赖包生成与安装
