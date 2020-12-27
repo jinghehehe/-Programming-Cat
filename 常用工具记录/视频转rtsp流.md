@@ -1,6 +1,6 @@
 # 视频转rtsp流
 ***
-视觉领域有时需要测试
+**视觉领域有时需要测试rtsp流，本文介绍视频转rtsp流的方法。**
 ***
 1. 从http://ffbinaries.com/downloads下载ffserver，网站里有多个版本及多个系统平台，本文用3.4版本ffserver。
 2. 解压到自定义目录
