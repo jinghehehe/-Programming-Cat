@@ -5,5 +5,5 @@
 ### Git 版本初始化
 ```language
 git clone xxx.git localpath
-
+//输入账号密码
 ```
