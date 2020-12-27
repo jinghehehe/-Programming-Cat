@@ -29,6 +29,7 @@ git pull origin master:my_test
 ### Git多人协作
 ```language
 commit-pull-push
+[好文分享](http://itrain.top/2020/06/git_tutorials_workflow/)
 ```
 
 ### Git 开源代码其他用户示例
