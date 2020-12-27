@@ -2,4 +2,8 @@
 ***
 **Git是常用的版本控制工具，本文将摘录一些常用指令。**
 ***
-### git clone
+### Git 版本初始化
+```language
+git clone xxx.git localpath
+
+```
