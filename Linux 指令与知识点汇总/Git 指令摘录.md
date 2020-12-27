@@ -11,5 +11,5 @@ git clone xxx.git localpath
 ```language
 //在本地创建目录初始化，git会对该目录下的文件进行版本控制。
 git init 
-
+//利用'git remote add'命令来增加一个远程服务器端
 ```
