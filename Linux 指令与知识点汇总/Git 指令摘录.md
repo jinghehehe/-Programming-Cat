@@ -9,5 +9,6 @@ git clone xxx.git localpath
 //输入账号密码
 ```
 ```language
+//初始化
 git init 
 ```
