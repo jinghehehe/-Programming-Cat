@@ -24,4 +24,10 @@ tmux attach -t <session-name>
 tmux detach
 ```
 
+### tmux 显示会话
+```language
+tmux ls
+```
+
+
 
