@@ -15,7 +15,6 @@ sudo yum install tmux
 # tmux新建窗口
 tmux new -s <session-name>
 ```
-
 ### tmux连接和分离窗口
 ```language
 # tmux连接窗口
@@ -23,11 +22,16 @@ tmux attach -t <session-name>
 # tmux分离窗口
 tmux detach
 ```
-
 ### tmux 显示会话
 ```language
 tmux ls
 ```
+### tmux 杀死会话
+```language
+tmux kill-session -t <session-name>
+```
 
+***
+### **喜欢Programming-Cat的话，请Star吧**
 
 
