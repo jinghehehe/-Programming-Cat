@@ -11,4 +11,9 @@ sudo apt-get install tmux
 # CentOS 或 Fedora
 sudo yum install tmux
 ```
+###
+```language
+# tmux新建窗口
+tmux new -s <session-name>
+```
 
