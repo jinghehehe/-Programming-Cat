@@ -29,7 +29,25 @@ git pull origin master:my_test
 ### Git 开源代码其他用户示例
 ```language
 // fork开源项目
+git clone <远程Arepository> #克隆你fork出来的分支
+ 
+git remote add <远程Brepository标签> git@github.com:XXXX/ceph.git #添加远程Brepository标签
+ 
+git pull <远程B厂库标签> master:master  #从远程Brepository的master分支拉取最新objects合并到本地master分支
 
+git checkout YYYY #切换到要修改的分支上
+ 
+git branch develop; git checkout develop #在当前分支的基础上创建一个开发分支，并切换到该分支上，你将在该分支上coding
+ 
+coding...... #在工作区coding
+ 
+git add .#将修改保存到索引区
+ 
+git commit -a #将修改提交到本地分区
+ 
+git push origin my_test:my_test #将本地分支my_test提交到远程A repository的my_test分支上
+
+//提交，等待审核。
 ```
 
 
