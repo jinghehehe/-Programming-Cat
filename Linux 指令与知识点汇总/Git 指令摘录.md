@@ -4,6 +4,10 @@
 ***
 ### Git 版本初始化
 ```language
+克隆远程库
 git clone xxx.git localpath
 //输入账号密码
+```
+```language
+
 ```
