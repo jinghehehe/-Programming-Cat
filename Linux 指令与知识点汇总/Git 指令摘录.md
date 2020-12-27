@@ -18,6 +18,9 @@ git remote add [name] [url]
 
 ### Git 推送分支与下拉分支
 ```language
-
+//推送分支
+git push <远程主机名> <本地分支名>:<远程分支名>
+//下拉分支
+git pull <远程主机> <远程分支>:<本地分支>
 ```
 
