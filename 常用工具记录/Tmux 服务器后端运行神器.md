@@ -16,5 +16,12 @@ sudo yum install tmux
 tmux new -s <session-name>
 ```
 
-### tmux连接和分离
+### tmux连接和分离窗口
+```language
+# tmux连接窗口
+tmux attach -t <session-name>
+# tmux分离窗口
+tmux detach
+```
+
 
