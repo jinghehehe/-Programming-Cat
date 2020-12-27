@@ -13,4 +13,5 @@ git clone xxx.git localpath
 git init 
 //利用'git remote add'命令来增加一个远程服务器端
 git remote add origin xxx.git
+git remote add [name] [url]
 ```
