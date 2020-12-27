@@ -20,7 +20,9 @@ git remote add [name] [url]
 ```language
 //推送分支
 git push <远程主机名> <本地分支名>:<远程分支名>
+git push origin master
 //下拉分支
 git pull <远程主机> <远程分支>:<本地分支>
+git pull origin master:my_test
 ```
 
