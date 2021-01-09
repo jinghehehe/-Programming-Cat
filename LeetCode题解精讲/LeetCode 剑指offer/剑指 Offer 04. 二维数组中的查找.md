@@ -41,78 +41,37 @@
 **本题是根据数组特性利用双指针来快速寻找目标数值**
 
 - 首先从右上角开始寻找，小于target向下，大于target向左，如果出界则意味着false。
-- 注意判断数组
+- 注意判断数组为空特殊情况。
 
 
 ### 题解：
 #### c++版本一，时间复杂度 O(n+m), 空间复杂度 O(1)。
 ```language
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
 public:
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        vector<vector<int> > result;
-        if(root == NULL)
-            return result;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            vector<int> levelList;
-            int size = q.size();
-            for(int i=0; i<size; i++){
-                auto p = q.front();
-                q.pop();
-                levelList.push_back(p->val);
-                if(p->left)
-                    q.push(p->left);
-                if(p->right)
-                    q.push(p->right);
-            } 
-            result.emplace_back(levelList.begin(), levelList.end());
+    bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
+        int n = matrix.size();
+        if(n==0) return false;
+        int m = matrix[0].size();
+        int index = 0;
+        int i = 0, j = m-1;
+        while(i<n&&j>=0){
+            if(target==matrix[i][j])
+                return true;
+            else if(target>matrix[i][j]){
+                i++;
+            }else{
+                j--;
+            }
         }
-        return result;
+        return false;
     }
 };
 ```
 #### python3版本一，时间复杂度 O(n),空间复杂度 O(1)
 ```language
 # 与c++版本一相同。
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
-class Solution:
-    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
-        if not root:
-            return []
-        q = deque()
-        q.append(root)
-        result = []
-        while q:
-            levellist = deque()
-            size = len(q)
-            for _ in range(size):
-                node = q.popleft()
-                levellist.append(node.val)
-                if node.left:
-                    q.append(node.left)
-                if node.right:
-                    q.append(node.right)
-	    #队列转化为列表
-            result.append(list(levellist))
-        return result
-
+待更
 ```
 ***
 
