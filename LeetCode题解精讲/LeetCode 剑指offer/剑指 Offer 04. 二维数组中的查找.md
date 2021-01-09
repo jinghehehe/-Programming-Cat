@@ -4,6 +4,7 @@
 相关企业： 字节跳动
 相关标签： 数组，双指针
 难度： 中等
+相似题型： 同主站240题
 ***
 ## 题干内容
 在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
@@ -17,9 +18,18 @@
 
 ![](https://github.com/jinghehehe/pictures/blob/main/103-1.png)
 
-返回其层序遍历结果：
 
-![](https://github.com/jinghehehe/pictures/blob/main/102-2.png)
+给定 target = 5，返回 true。
+
+给定 target = 20，返回 false。
+
+ 
+
+限制：
+
+0 <= n <= 1000
+
+0 <= m <= 1000
 
 
 来源：力扣（LeetCode）
