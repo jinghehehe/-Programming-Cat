@@ -1,16 +1,19 @@
 # 剑指 Offer 04. 二维数组中的查找
 ***
-来源： LeetCode 热题Hot-100
-相关企业： 亚马逊， 字节跳动， 微软
-相关标签： 树， 广度优先搜索
+来源： LeetCode 剑指offer
+相关企业： 字节跳动
+相关标签： 数组，双指针
 难度： 中等
-相似题目：  二叉树的锯齿形层序遍历(同类型题)，二叉树的层序遍历 II
 ***
 ## 题干内容
-给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）
+在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
 
-示例：
-二叉树：[3,9,20,null,null,15,7],
+ 
+
+示例:
+
+现有矩阵 matrix 如下：
+
 
 ![](https://github.com/jinghehehe/pictures/blob/main/103-1.png)
 
@@ -18,8 +21,9 @@
 
 ![](https://github.com/jinghehehe/pictures/blob/main/102-2.png)
 
+
 来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+链接：https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 ## 题眼题解
