@@ -10,7 +10,7 @@
 ### 软链接文件有类似于Windows的快捷方式。它实际上是一个特殊的文件。在符号连接中，文件实际上是一个文本文件，其中包含的有另一文件的位置信息。
 - 添加软链接
 ```language
-ln -s /sbin/ifconfig /usr/bin （a源文件， b目标文件）//
+ln -s /sbin/ifconfig /usr/bin （a源文件， b目标文件）//绝对路径
 ```
 - 删除软链接
 ```language
