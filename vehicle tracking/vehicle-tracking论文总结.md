@@ -21,3 +21,4 @@ Frame 1：检测器又检测到了3个detections，对于Frame 0中的tracks，�
 
 [deepsort参考](https://zhuanlan.zhihu.com/p/202993073)
 [deepsort参考](https://zhuanlan.zhihu.com/p/90835266)
+车辆关联时采用多维信息融合来进行匹配，分别是车辆外部特征信息，
