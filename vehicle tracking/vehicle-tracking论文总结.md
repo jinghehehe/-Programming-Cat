@@ -5,4 +5,5 @@ SCI 三区 三作，提出一种多车辆跟踪算法，主要在目标检测，
 ## 算法框架
 ![](https://github.com/jinghehehe/pictures/blob/main/Figure_2_DPI500.jpg)
 ### 目标检测改进点
+目标检测算法采用的是无锚框的
 针对多车辆跟踪首先采用优化后的Non-local Neural Networks，cv领域即自注意力操作，一方面
