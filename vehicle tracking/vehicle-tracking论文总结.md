@@ -22,3 +22,5 @@ Frame 1：检测器又检测到了3个detections，对于Frame 0中的tracks，�
 [deepsort参考](https://zhuanlan.zhihu.com/p/202993073)
 [deepsort参考](https://zhuanlan.zhihu.com/p/90835266)
 车辆关联时采用多维信息融合来进行匹配，分别是车辆外部特征信息，空间位置信息和运动轨迹信息，其中车速较快时权重更大为运动轨迹信息，车速较慢时权重更大为空间位置信息。
+
+### 针对漏检目标
