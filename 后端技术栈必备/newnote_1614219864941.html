@@ -11,8 +11,13 @@ private:
 public:
 	static Singleton* getInstance() 
         {
-		if(instance == NULL) 
-			instance = new Singleton();
+		if(instance == NULL) {
+		Lock lock;  // 基于作用域的加锁，超出作用域，自动调用析构函数解锁
+        if(instance == NULL) {
+        	instance = new Singleton();
+        }
+	}
+
 		return instance;
 	}
 };
