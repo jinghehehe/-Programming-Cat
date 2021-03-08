@@ -6,7 +6,7 @@ SCI 三区 三作，提出一种多车辆跟踪算法，主要在目标检测，
 ![](https://github.com/jinghehehe/pictures/blob/main/Figure_2_DPI500.jpg)
 ### 目标检测改进点
 目标检测算法采用的是无锚框的基于关键点检测的CenterNet算法，同时针对多车辆跟踪首先采用优化后的Non-local Neural Networks，cv领域即自注意力操作，一方面提升检测指标，但是保证了参数量。
-
+[non local works](https://www.cnblogs.com/pprp/p/12153255.html)
 ### 多目标跟踪改进点
 多目标跟踪采用的是在线跟踪匈牙利算法DeepSort来实现。
 这里介绍两个知识点：1 匈牙利算法可以告诉我们当前帧的某个目标，是否与前一帧的某个目标相同。
@@ -23,6 +23,8 @@ Frame 1：检测器又检测到了3个detections，对于Frame 0中的tracks，�
 [deepsort参考](https://zhuanlan.zhihu.com/p/90835266)
 车辆关联时采用多维信息融合来进行匹配，分别是车辆外部特征信息，空间位置信息和运动轨迹信息，其中车速较快时权重更大为运动轨迹信息，车速较慢时权重更大为空间位置信息。
 
+[deepsort](https://zhuanlan.zhihu.com/p/97449724)
+[deepsort](https://zhuanlan.zhihu.com/p/90835266)
 ### 针对漏检目标采取单目标跟踪方式的改进
 单目标跟踪采用的是siamrpn，但为了保证整体架构的速度，此模块还对模块进行不对称卷积和深度可分离卷积来提升性能。
 
